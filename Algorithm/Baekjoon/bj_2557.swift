@@ -1,5 +1,5 @@
 //
-//  2557.swift
+//  main.swift
 //  Algorithm
 //
 //  Created by seohuibaek on 1/18/24.
