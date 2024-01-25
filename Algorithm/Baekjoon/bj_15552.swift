@@ -24,6 +24,7 @@
 import Foundation
 
 // 라이노님의 FileIO
+// 효율적인 파일 입출력을 위해 사용
 final class FileIO {
     private var buffer:[UInt8]
     private var index: Int
@@ -39,6 +40,7 @@ final class FileIO {
         return buffer.withUnsafeBufferPointer { $0[index] }
     }
     
+    //정수 읽어오기
     @inline(__always) func readInt() -> Int {
         var sum = 0
         var now = read()
@@ -55,6 +57,7 @@ final class FileIO {
         return sum * (isPositive ? 1:-1)
     }
     
+    //문자열 읽어오기
     @inline(__always) func readString() -> String {
         var str = ""
         var now = read()
@@ -64,7 +67,7 @@ final class FileIO {
         
         while now != 10
                 && now != 32 && now != 0 {
-            str += String(bytes: [now], encoding: .ascii)!
+            str += String(bytes: [now], encoding: .ascii)! //아스키 코드 직접 처리하여 효율 증가
             now = read()
         }
         
@@ -72,17 +75,14 @@ final class FileIO {
     }
 }
 
-var answer = ""
-func solution() {
+func calculate() {
     let a = file.readInt(), b = file.readInt()
-    answer += "\(a + b)\n"
+    print(a+b)
 }
 
 let file = FileIO()
 
 let n = file.readInt()
 for _ in 0..<n {
-    solution()
+    calculate()
 }
-
-print(answer)
