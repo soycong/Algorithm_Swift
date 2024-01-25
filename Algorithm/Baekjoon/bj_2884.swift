@@ -8,7 +8,6 @@
 import Foundation
 var nums = readLine()!.split(separator: " ").map {Int($0)!}
 
-
 if nums[0] == 0 {
     if nums[1] < 45 {
         nums[0]=23
