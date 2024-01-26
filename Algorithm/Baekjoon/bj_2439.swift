@@ -16,7 +16,7 @@ for i in 1..<num+1 {
     for _ in stride(from: num, to: i, by: -1){
         blank+=" "
     }
-    for _ in 0..<i{
+    for _ in 0..<i {
         //print("*", terminator: "")
         star+="*"
     }
