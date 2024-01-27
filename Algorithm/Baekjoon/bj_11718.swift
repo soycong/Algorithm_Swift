@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+while let word = readLine() {
+    print(word)
+}

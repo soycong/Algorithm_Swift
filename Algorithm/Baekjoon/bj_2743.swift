@@ -6,3 +6,5 @@
 //
 
 import Foundation
+var word = readLine()!.map{String($0)}
+print(word.count)

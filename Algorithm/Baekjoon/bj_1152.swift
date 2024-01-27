@@ -6,3 +6,5 @@
 //
 
 import Foundation
+var sen = readLine()!.split(separator: " ").map {String($0)}
+print(sen.count)
