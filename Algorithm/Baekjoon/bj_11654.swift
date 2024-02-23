@@ -10,5 +10,3 @@ var char = Character(readLine()!)
 var asciiValue = char.asciiValue
 
 print(asciiValue ?? 0)
-
-
