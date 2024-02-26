@@ -44,10 +44,8 @@
             filePath = "Algorithm/Baekjoon/main.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "10"
+            endingLineNumber = "10">
             <Locations>
                <Location
                   uuid = "5DC30C2A-6209-49AA-8CD2-05F068B82E07 - bcfc6766ce6b7a7d"
@@ -78,6 +76,21 @@
                   startingLineNumber = "10"
                   endingLineNumber = "10"
                   offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "5DC30C2A-6209-49AA-8CD2-05F068B82E07 - bcfc6766ce6b7a7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Algorithm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soy/Documents/Algorithm/Algorithm/Baekjoon/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "264">
                </Location>
             </Locations>
          </BreakpointContent>
