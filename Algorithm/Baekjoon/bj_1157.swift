@@ -33,4 +33,3 @@ for (char, count) in charCounts {
 }
 
 print(result)
-
